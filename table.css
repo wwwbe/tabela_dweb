@@ -1,0 +1,61 @@
+table{
+    box-shadow: 10px;
+}
+
+caption{
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.table, tr, td, th{
+    border: 0.5px dotted rgb(255, 255, 255);
+    border-collapse: collapse;
+    padding: 5px;
+    
+}
+
+th{
+    background-color: #6f2d9b;
+    color: #fff;
+    font-family: 'Nunito';
+    font-weight: 700;
+}
+
+th:hover{
+    color: rgb(231, 190, 255);
+}
+
+td:hover{
+    color: rgb(89, 23, 128);
+}
+
+
+tr{
+    background-color: #dbd0e2;
+}
+
+td {
+    text-align: center;
+    color:  #9b65bf;
+    font-family: 'Muli';
+}
+
+p {
+    text-align: left;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    font-family: 'Muli', sans-serif;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+article {
+    background-color: #8b41bd;
+    padding: 0.3%;
+    width: 1340px;
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+}
